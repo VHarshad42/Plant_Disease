@@ -1,0 +1,10 @@
+# gunicorn == 19.9.0
+# uvloop
+# httptools
+numpy
+pandas
+# tensorflow
+Pillow
+jsonify
+Flask
+torch
