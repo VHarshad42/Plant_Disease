@@ -100,7 +100,11 @@ def disease_prediction():
             return jsonify({"result":prediction})
         except:
             pass
-        
+
+          
+if __name__ == '__main__':
+  app.run(debug=True)
+    
 
     
 
