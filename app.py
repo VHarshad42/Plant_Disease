@@ -5,6 +5,7 @@ from PIL import Image
 import torch
 from torchvision import transforms
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
+# from transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
 from utils.model import ResNet9
 from flask import Flask,request,jsonify
 
