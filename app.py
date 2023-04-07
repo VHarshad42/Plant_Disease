@@ -7,7 +7,7 @@ import io
 from PIL import Image
 import json
 import torch
-# from torch import torchvision
+from torch import torchvision
 from torchvision import transforms
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
 from utils.model import ResNet9
