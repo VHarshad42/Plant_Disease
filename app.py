@@ -1,13 +1,8 @@
-# from fastapi import FastAPI, File, UploadFile
-# from fastapi.middleware.cors import CORSMiddleware
-# import uvicorn
 import os
 import numpy as np
 import io
 from PIL import Image
-import json
 import torch
-from torch import torchvision
 from torchvision import transforms
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
 from utils.model import ResNet9
