@@ -95,12 +95,12 @@ def disease_prediction():
         if 'file' not in request.files:
             return "Plz input image"
         file = request.files.get('file')
-        try:
-            img = file.read()
-            prediction = predict_image(img)
-            return jsonify({"result":prediction})
-        except:
-            pass
+        
+        img = file.read()
+        prediction = predict_image(img)
+        return jsonify({"result":prediction})
+        
+            
 
           
 if __name__ == '__main__':
